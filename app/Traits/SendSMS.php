@@ -13,8 +13,8 @@ trait SendSMS {
         $receiverNumber = "+91".$phone;
         $message = "Your otp is ". $otp;
         try {
-            $account_sid = 'AC4d461711052182e47c39c1e21b6a8816';
-            $auth_token = 'd3eebb2695312dbad95582eb3b1a5df9';
+            $account_sid = '';
+            $auth_token = '';
             $twilio_number = '+13605498573';
             $client = new Client($account_sid, $auth_token);
             $client->messages->create($receiverNumber, [
