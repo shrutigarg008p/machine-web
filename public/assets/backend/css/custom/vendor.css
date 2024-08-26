@@ -1,0 +1,238 @@
+/*magazine and newspaper*/
+h1.md_hg_heading {
+    font-size: 34px;
+    color: #212121;
+    font-weight: 600;
+    margin: 0;
+}
+
+ul.source_date {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+li.sd_list {
+    font-size: 16px;
+    color: #666666;
+    margin-right: 10px;
+    font-weight: 400;
+}
+
+.magazine_d_price {
+    font-size: 20px;
+    font-weight: 500;
+    color: #666666;
+    background-color: transparent;
+}
+
+.md_text_start {
+    border-top: 1px solid #e0e0e0;
+    margin-top: 30px;
+    padding-top: 25px;
+    margin-bottom: 25px;
+}
+
+h2.mdtext_heading {
+    font-size: 20px;
+    font-weight: 600;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+p.md_text_detail {
+    font-size: 15px;
+    font-weight: 300;
+    color: #666666;
+    margin-bottom: 20px;
+}
+.md_left {
+    padding-right: 10px;
+    padding-bottom: 25px;
+}
+.pdf-wrapper #viewer {margin: 0px 12px 30px 0px!important;width:100%;background: white;}
+.pdf-wrapper div#thumbnailView a {
+    display: none !important;
+}
+
+
+div#toolbarViewer {
+    background: #4c4c4c;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+div#toolbarViewerMiddle {
+    width: 360px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.splitToolbarButton {
+    width: 120px;
+    display: flex;
+}
+
+span#scaleSelectContainer {
+    min-width: 60px!important;
+    max-width: 60px!important;
+}
+
+
+span#scaleSelectContainer select#scaleSelect {
+    min-width: 100%!important;
+    max-width: 100%!important;
+    display: block;
+    border: 0;
+    height: 22px;
+    font-size: 13px
+}
+div#viewerContainer {
+    overflow-x: auto !important;
+}
+
+.splitToolbarButton button {
+    border: 0;
+    font-size: 12px;
+}
+.splitToolbarButtonSeparator {
+    border-left: solid 1px #4c4c4c;
+}
+input#pageNumber {
+    width: 35px;
+    text-align: center;
+    border: 0;
+    font-size: 14px;
+}
+span#numPages {
+    color: #fff;
+    font-size: 14px;
+}
+menu#viewerContextMenu {
+    display: none;
+}
+
+/*epub*/
+#main {
+    position: static !important;
+    top: 0 !important;
+    left: 0  !important;
+    width: 100% !important;
+}
+.pdf-wrapper #navigation {
+    position: static;}
+
+.pdf-wrapper #pagination {margin-left: 0px;}    
+.pdf-wrapper .arrow { margin-top: 0;
+    margin-bottom: 25px;
+}
+
+footer.main-footer {
+    text-align: center;
+    font-size: 11px;
+}
+
+div#epubjs-container-3afe9ec6-477b-4f4f-b290-cf3d0ef398a1 {
+    min-height: 606px;
+    /*background: yellow;*/
+}
+
+#viewer .epub-view{
+    box-shadow: none !important;
+}
+
+
+div#sidebarContent {
+    display: none;
+}
+
+/*choose file none*/
+input#fileInput{
+    display: none;
+}
+
+
+
+/*vendor dashboard*/
+/*a.btn.btn-sm.btn-primary {
+    font-style: initial !important;
+    background: #CA0A0A;
+    border-radius: 5px;
+    border: 0;
+    font-size: 14px;
+}*/
+
+.btn-primary {
+    background: #CA0A0A;
+    border-radius: 5px;
+    border: 0;
+    font-size: 14px;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {background-color: #212121 !important;}
+
+.dataTables_wrapper table.dataTable tbody th, table.dataTable tbody td {
+    padding: 20px 0px 20px 10px;
+    vertical-align: middle;
+}
+.dataTables_wrapper table.dataTable tbody th:first-child, table.dataTable tbody td:first-child {
+    padding-left: 20px;
+}
+
+.dataTables_wrapper a.btn.btn-sm.btn-success {
+    border: 2px solid #212121;
+    border-radius: 5px;
+    background: #fff;
+    color: #212121;
+    font-size: 14px;
+}
+
+/*.dataTables_wrapper span.badge.badge-success {
+    background: #ca0a0a;
+}*/
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover, .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    background: #ca0a0a;
+    color: #fff !important;
+    border-color: #ca0a0a;
+}
+
+.content-header h1 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #212121;
+}
+
+.content-wrapper {
+    font-family: 'Poppins', sans-serif !important;
+    color: #212121;
+}
+
+footer.main-footer {
+    font-size: 14px;
+}
+
+footer.main-footer strong {
+    font-weight: 400;
+}
+
+footer.main-footer strong a {
+    color: #212121;
+    font-weight: 400;
+}
+
+
+a.status_deactivate {
+    font-size: 14px;
+    color: #ca0a0a;
+}
+a.status_activate {
+    font-size: 14px;
+    color: #28a745;
+}
+
+.float-right.d-none.d-sm-inline-block, footer.main-footer b {
+    color: #212121;
+    font-weight: 400;
+}

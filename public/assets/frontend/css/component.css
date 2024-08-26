@@ -1,0 +1,122 @@
+.sb-icon-search:before {
+    background: url(../img/icon-search.png);
+    content: '';
+    height: 21px;
+    width: 21px;
+    position: absolute;
+    left: 17px;
+    top: 11px;
+	transition: .4s ease-in-out;
+}
+.sb-search {
+	position: relative;
+	width: 0%;
+	min-width: 52px;
+	height: 44px;
+	float: right;
+	overflow: hidden;
+	-webkit-transition: .4s ease-in-out;
+	-moz-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+	-webkit-backface-visibility: hidden;
+	border: 1px solid transparent;
+	border-radius: 20px;
+}
+
+.sb-search-input {
+	position: absolute;
+	top: 0;
+	right: 0;
+	border: none;
+	outline: none;
+	background: transparent;;
+	width: 100%;
+	height: 42px;
+	margin: 0;
+	z-index: 10;
+	padding: 0 65px 0 10px;
+	font-family: inherit;
+	font-size: 14px;
+	color: #fff;
+}
+
+.sb-search-input::-webkit-input-placeholder {
+	color: var(--secondary-color);
+}
+
+.sb-search-input:-moz-placeholder {
+	color: var(--secondary-color);
+}
+
+.sb-search-input::-moz-placeholder {
+	color: var(--secondary-color);
+}
+
+.sb-search-input:-ms-input-placeholder {
+	color: var(--secondary-color);
+}
+
+.sb-icon-search,
+.sb-search-submit  {
+	width: 50px;
+	height: 42px;
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 0;
+	margin: 0;
+	line-height: 60px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.sb-search-submit {
+	background: #fff; /* IE needs this */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* IE 8 */
+    filter: alpha(opacity=0); /* IE 5-7 */
+    opacity: 0;
+	color: transparent;
+	border: none;
+	outline: none;
+	z-index: -1;
+}
+
+.sb-icon-search {
+	color: #fff;
+	background: transparent;
+	z-index: 90;
+	font-size: 22px;
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	-webkit-font-smoothing: antialiased;
+	border-radius: 20px;
+}
+.search_text {
+    font-size: 15px;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.sb-search.sb-search-open + .search_text {
+    display: none;
+}
+
+
+/* Open state */
+.sb-search.sb-search-open,
+.no-js .sb-search {
+	width: 50%;
+	border: 1px solid #eceff1;
+    border-radius: 5px 20px 20px 5px;
+	margin-right: 15px;
+}
+
+.sb-search.sb-search-open .sb-search-submit,
+.no-js .sb-search .sb-search-submit {
+	z-index: 90;
+}

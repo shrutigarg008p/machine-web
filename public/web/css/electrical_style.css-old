@@ -1,0 +1,602 @@
+.tabs-wrapper {
+    margin-top: 40px;
+}
+
+.nav-pill-custom .nav-link.active {
+    background-color: transparent;
+    color: #0d6efd;
+}
+
+.nav-pill-custom .nav-link {
+    color: #807878;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.nav-pill-custom {
+    border-bottom: 1px solid #999;
+}
+
+.nav-pill-custom .nav-link.active {
+    border-bottom: 2px solid #0d6efd;
+    border-radius: 0;
+}
+.electrical-item {
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+
+.electrical-item img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.electrical-item-content {
+    padding: 10px 0;
+    display: inline-block;
+    width: 100%;
+}
+
+.electrical-item-title {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.electrical-item-subtitle {
+    font-size: 16px;
+    color: #444;
+    display: inline-block;
+    margin-bottom: 2px;
+    margin-top: 5px;
+    width: 100%;
+}
+.custom-text {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #999;
+    display: inline-block;
+}
+.green-txt {
+color: #03ad54;
+}
+
+.custom-text img {
+vertical-align: text-bottom;
+display: inline-block;
+}
+.map-wrapper {
+width: 16px;
+margin-right: 2px;
+float: left;
+}
+
+.location-wrapper-txt {
+    width: 92%;
+    float: left;
+}
+
+.clock-wrapper {
+    width: 14px;
+    float: left;
+    margin-right: 4px;
+}
+
+.clock-wrapper-txt {
+    width: 91%;
+    float: left;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #999;
+}
+
+.electrical-box-wrapper {margin-bottom: 10px;}
+.offer-box {
+position: absolute;
+bottom: 8%;
+z-index: 999;
+background: #f79e01;
+left: 4%;
+padding: 1px 10px;
+font-size: 14px;
+border-radius: 20px;
+color: #fff;
+font-weight: 500;
+}
+
+.rating-box {
+position: absolute;
+background: #25963e;
+bottom: 7%;
+right: 4%;
+padding: 3px 10px;
+font-size: 14px;
+border-radius: 2px;
+color: #fff;
+font-weight: 500;
+}
+.rating-box .fa {
+margin-right: 5px;
+}
+.heart-icon {
+background: #0abfdd;
+border-radius: 100%;
+width: 30px;
+height: 30px;
+position: absolute;
+top: 5%;
+right: 5%;
+text-align: center;
+line-height: 30px;
+}
+
+.heart-icon .fa {
+line-height: 30px;
+color: #fff;
+text-align: center;
+}
+.electrical-item-title {
+margin-top: 10px;
+}
+
+.electrical-item-title img {
+width: 24px;
+float: right;
+}
+.main-title-tabs {
+font-size: 30px;
+font-weight: 500;
+margin-bottom: 30px;
+}
+
+/* detail page start  */
+.detail-banner-page {
+position: relative;
+width: 100%;
+height: 300px;
+}
+
+.detail-banner-page img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+border-radius: 6px;
+}
+
+.electrical-details-wrapper {
+background: #fff;
+border: 1px solid #eee;
+padding: 20px;
+box-shadow: 1px 2px 5px rgb(0 0 0 / 6%);
+margin: 30px;
+}
+
+.electrical-details-wrapper .electrical-item-subtitle {
+display: block;
+width: 60%;
+}
+.clockbox {
+width: 100%;
+display: inline-block;
+}
+
+.clock-wrapper img {
+vertical-align: baseline;
+}
+.detail-banner-page .offer-box {
+left: 2%;
+padding: 6px 20px;
+}
+.electrical-details-wrapper .rating-box {
+position: relative;
+bottom: auto;
+vertical-align: middle;
+padding: 6px 10px;
+}
+
+.electrical-details-wrapper .exportimg {
+width: 24px;
+}
+.rating-export-wrapper {
+float: right;
+margin-top: 20px;
+display: block;
+width: 100%;
+text-align: right;
+}
+.clock-wrapper-txt.green-txt {
+color: #03ad54;
+}
+.details-share-btn ul {
+padding: 0;
+list-style-type: none;
+}
+
+.details-share-btn ul li {
+display: inline-block;
+border: 1px solid #017be1;
+width: 40px;
+height: 40px;
+line-height: 40px;
+border-radius: 100%;
+text-align: center;
+color: #017be1;
+font-size: 22px;
+}
+
+.details-share-btn {
+display: block;
+width: 100%;
+float: right;
+text-align: right;
+margin-top: 30px;
+}
+.product .content-details {
+width: calc(100% - 110px);
+}
+
+.text-underline {
+text-decoration: underline;
+font-size: 14px;
+}
+
+.content-details .clock-wrapper-txt {
+width: 100%;
+}
+.text-captilaization {
+text-transform: capitalize !important;
+}
+.borderradius-10px {
+border-radius: 10px;
+}
+.service-list {
+padding: 0;
+list-style-type: none;
+margin-bottom: 0;
+}
+
+.service-list li {
+display: inline-block;
+margin-right: 30px;
+}
+
+.service-list li img {
+width: 20px;
+vertical-align: middle;
+}
+
+.service-list li .greytxt {
+font-size: 14px;
+color: #999;
+}
+.title-content-wrapeer .custom-text {
+width: 100%;
+}
+.electrical-item-title a {
+color: #444;
+}
+.anchor-link {
+    color: #444;
+}
+body{
+    background-color: #f5fafe;
+}
+.whitebg-border-box {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgb(0 0 0 / 6%);
+    width: 250px;
+    height: 250px;
+}
+.whitebg-border-box img{
+    object-fit: contain;
+}
+.grey-heart-icon {
+    background: #fff;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #ccc;
+}
+.grey-heart-icon .fa {
+    line-height: 30px;
+    color: #ccc;
+    text-align: center;
+}
+.add-item-icon {
+    background: #017be1;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 5%;
+    right: 20%;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.add-item-icon .fa {
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+}
+.add-item-count {
+    background: #f79e02;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 5%;
+    right: 20%;
+    text-align: center;
+    border: 1px solid #ccc;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+}
+.custom-btn {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.add-to-basket-btn {
+    background: #f79e02;
+    color: #fff;
+    width: 100%;
+}
+
+.inline-btn {
+    margin-top: 10px;
+    display: block;
+}
+
+.request-qoute-btn {
+    background: #0fe7dc;
+    color: #fff;
+    width: 68%;
+}
+
+.chat-btn {
+    background: #017ae2;
+    color: #fff;
+    width: 30%;
+}
+
+.plus-black-bg {margin-right: 10px;}
+
+.plus-black-bg .fa {
+    font-size: 10px;
+    width: 20px;
+    height: 20px;
+    background: #444;
+    line-height: 20px;
+    border-radius: 100%;
+}
+.add-to-cart-sec {
+    margin-top: 30px;
+    background: #fff;
+    border-radius: 5px; 
+    padding: 30px 0;
+}
+
+.product-price-blue {
+    font-size: 20px;
+    color: #017ae2;
+    font-weight: 500;
+}
+
+.product-image {
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    padding-top: 30px;
+    position: relative;
+}
+
+.product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.grey-share-icon {
+    background: #fff;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 5%;
+    right: 15%;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #cccccc;
+}
+
+.grey-share-icon .fa {
+    color: #cccccc;
+}
+.blue-txt {
+    color: #017ae2;
+}
+.colord-tr {
+    background: #f5fafe;
+    border-bottom: 1px solid #eee;
+}
+.products-more-info .row {
+    padding: 10px;
+    font-size: 14px;
+}
+.rating-box2 {
+    background: #25963e;
+    padding: 3px 10px;
+    font-size: 14px;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.rating-box2 .fa {
+    margin-right: 5px;
+}
+
+.clock-txt-green-color {
+    width: 93%;
+    float: right;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #03ad54;
+}
+
+.electrical-item2 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.electrical-item2 {
+    width: 100%;
+    height: 150px;
+    position: relative;
+}
+.yello-strip {
+    padding: 10px;
+    background: #f79e01;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+.light-sky-bg 
+{
+    background: #0fe7dc;
+    color: #fff;
+    width: 100%;
+}
+.close-btn-icon {
+    border: none;
+    background: none;
+    float: right;
+    text-align: right;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+.margin0-auto {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+.box-center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    transform: translate(-50%, -50%) !important;
+}
+.widthautocls{
+    width: auto;
+}
+.confirm-order-wrapper {
+    background: aliceblue;
+    padding: 10px;
+    border-radius: 2px;
+    margin-top: 20px;
+    border-bottom: 1px solid #eee;
+}
+.electrical-item-small {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.electrical-item-small img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.anchor-link-blue {
+    font-size: 15px;
+    font-weight: 500;
+    color: #017be1;
+}
+.display-block {
+    display: block;
+}
+.blue-common-btn
+{
+    background-color: #017ae2;
+}
+.minus-icon .fa {
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    background: #d8d8d8;
+    text-align: center;
+    margin-left: 10px;
+    border-radius: 100%;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+
+.plus-icon .fa {
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    background: #017ae5;
+    text-align: center;
+    margin-right: 10px;
+    border-radius: 100%;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.delete-icon .fa {
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    background: #f79e03;
+    text-align: center;
+    border-radius: 100%;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+input.countnum {
+    width: 60px;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid #999;
+    border-radius: 2px;
+    vertical-align: middle;
+}
+
+
+.count-wrapper {
+    float: right;
+}

@@ -1,0 +1,16 @@
+.message-nav .dropdown-toggle::after,
+.message-nav .dropdown-toggle::before,
+.notification-nav .dropdown-toggle::after,
+.notification-nav .dropdown-toggle::before {
+    content: none;
+}
+
+.btn-to-link {
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}

@@ -1,0 +1,146 @@
+.md28-layout {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.md28-layout-item {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.md28-layout-wrapper {
+    position: relative;
+    border: 1px solid transparent;
+    border-top: 1px solid #DADCE0;
+    border-bottom: 1px solid #DADCE0;
+    overflow: hidden;
+    display: grid;
+}
+
+.md28-layout-wrapper>* {
+    background-color: #efefef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+    height: 100%;
+    padding: 4px;
+    border: 1px solid #bbaeae;
+}
+
+.md28-layout-wrapper.border-white>* {
+    border: 1px solid #fff;
+}
+
+/* LAYOUT ONE */
+.md28-layout-one {
+    grid-template-areas:
+        "header header header header"
+        "leftbar one one two"
+        "leftbar one one two"
+        "leftbar three three three"
+        "leftbar three three three"
+        "leftbar three three three";
+}
+.md28-layout-one-section-header {
+    grid-area: header;
+}
+.md28-layout-one-section-leftbar {
+    grid-area: leftbar;
+}
+.md28-layout-one-section-one {
+    grid-area: one;
+}
+.md28-layout-one-section-two {
+    grid-area: two;
+}
+.md28-layout-one-section-three {
+    grid-area: three;
+}
+.md28-layout-one-section-four {
+    grid-area: four;
+}
+.md28-layout-one-section-five {
+    grid-area: five;
+}
+/* LAYOUT ONE -END*/
+
+/* LAYOUT TWO */
+.md28-layout-two {
+    grid-template-areas:
+        "header header header header"
+        "leftbar one one one"
+        "leftbar one one one"
+        "leftbar two two three"
+        "leftbar two two three"
+        "leftbar two two three";
+}
+.md28-layout-two-section-header {
+    grid-area: header;
+}
+.md28-layout-two-section-leftbar {
+    grid-area: leftbar;
+}
+.md28-layout-two-section-one {
+    grid-area: one;
+}
+.md28-layout-two-section-two {
+    grid-area: two;
+}
+.md28-layout-two-section-three {
+    grid-area: three;
+}
+.md28-layout-two-section-four {
+    grid-area: four;
+}
+.md28-layout-two-section-five {
+    grid-area: five;
+}
+.md28-layout-two-section-six {
+    grid-area: six;
+}
+.md28-layout-two-section-seven {
+    grid-area: seven;
+}
+/* LAYOUT TWO -END*/
+
+/* LAYOUT THREE */
+.md28-layout-three {
+    grid-template-areas:
+        "header header header header"
+        "one two two three"
+        "one two two three"
+        "four four five five"
+        "four four five five"
+        "six six seven seven";
+}
+.md28-layout-three-section-header {
+    grid-area: header;
+}
+.md28-layout-three-section-leftbar {
+    grid-area: leftbar;
+}
+.md28-layout-three-section-one {
+    grid-area: one;
+}
+.md28-layout-three-section-two {
+    grid-area: two;
+}
+.md28-layout-three-section-three {
+    grid-area: three;
+}
+.md28-layout-three-section-four {
+    grid-area: four;
+}
+.md28-layout-three-section-five {
+    grid-area: five;
+}
+.md28-layout-three-section-six {
+    grid-area: six;
+}
+.md28-layout-three-section-seven {
+    grid-area: seven;
+}
+/* LAYOUT THREE -END*/
